@@ -1,0 +1,11 @@
+<h1>Productos Agregados</h1>
+
+{{#each getProducts}}
+<p style="font-weight: bold;">Nombre: {{this.title}}</p>
+<p>Descripcion: {{this.description}}</p>
+<p>Precio: {{this.price}}</p>
+<p>Codigo: {{this.code}}</p>
+<p>Stock: {{this.stock}}</p>
+<p>Categoria: {{this.category}}</p>
+<br>
+{{/each}}
